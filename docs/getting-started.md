@@ -6,7 +6,7 @@ sidebar_position: 2
 
 按照下面的流程，你可以快速完成首次使用：
 
-1. 从 [GitHub Releases](https://github.com/AK-assistant/ak-assistant/releases/latest) 下载适合当前系统的安装包。
+1. 从 [GitHub Releases](https://github.com/AK-assistant/AK-assistant.github.io/releases/latest) 下载适合当前系统的安装包。
 2. 安装并启动 AK Assistant。
 3. 连接目标设备，确认系统已经识别对应串口。
 4. 在应用中选择串口、波特率以及所需通信参数。

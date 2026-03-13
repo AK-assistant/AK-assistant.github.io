@@ -12,4 +12,4 @@ AK Assistant 的安装包统一发布在 GitHub Releases 页面。
 
 最新下载地址：
 
-`https://github.com/AK-assistant/ak-assistant/releases/latest`
+`https://github.com/AK-assistant/AK-assistant.github.io/releases/latest`

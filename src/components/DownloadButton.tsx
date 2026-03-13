@@ -52,7 +52,7 @@ const DownloadButton: React.FC = () => {
 
   const releasesUrl =
     customFields.releasesUrl ??
-    'https://github.com/AK-assistant/ak-assistant/releases/latest';
+    'https://github.com/AK-assistant/AK-assistant.github.io/releases/latest';
   const latestReleaseData = customFields.latestReleaseData ?? {};
 
   const downloadUrl = useMemo(() => {
