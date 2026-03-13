@@ -1,10 +1,13 @@
 import React from 'react';
 import Translate from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './HomeHero.module.css';
 import DownloadButton, { getDownloadDescription } from './DownloadButton';
 
 const HomeHero: React.FC = () => {
+  const heroFigureUrl = useBaseUrl('/img/hero-figure.png');
+
   return (
     <header className={styles.heroBanner}>
       <div className={styles.backgroundPattern} />
@@ -33,7 +36,7 @@ const HomeHero: React.FC = () => {
           <div className={styles.visual}>
             <div className={styles.visualCard}>
               <img
-                src="/img/hero-figure.png"
+                src={heroFigureUrl}
                 alt="AK Assistant 首页视觉"
                 className={styles.visualImage}
               />
