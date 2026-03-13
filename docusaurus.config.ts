@@ -9,7 +9,7 @@ const config: Config = {
   url: 'https://www.ak-assistant.top',
   baseUrl: '/',
   organizationName: 'AK-assistant',
-  projectName: 'ak-assistant-website',
+  projectName: 'ak-assistant',
   onBrokenLinks: 'throw',
   trailingSlash: false,
   markdown: {
@@ -30,7 +30,7 @@ const config: Config = {
     }
   },
   customFields: {
-    websiteRepoUrl: 'https://github.com/AK-assistant/ak-assistant-website',
+    websiteRepoUrl: 'https://github.com/AK-assistant/ak-assistant',
     appRepoUrl: 'https://github.com/AK-assistant/ak-assistant',
     releasesUrl: 'https://github.com/AK-assistant/ak-assistant/releases/latest'
   },
@@ -41,13 +41,13 @@ const config: Config = {
         docs: {
           routeBasePath: 'docs',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/AK-assistant/ak-assistant-website/tree/main/'
+          editUrl: 'https://github.com/AK-assistant/ak-assistant/tree/main/'
         },
         blog: {
           showReadingTime: true,
           blogTitle: '更新日志',
           blogDescription: 'AK Assistant 官网更新与版本记录',
-          editUrl: 'https://github.com/AK-assistant/ak-assistant-website/tree/main/',
+          editUrl: 'https://github.com/AK-assistant/ak-assistant/tree/main/',
           onUntruncatedBlogPosts: 'ignore'
         },
         theme: {
@@ -81,7 +81,7 @@ const config: Config = {
           position: 'right'
         },
         {
-          href: 'https://github.com/AK-assistant/ak-assistant-website',
+          href: 'https://github.com/AK-assistant/ak-assistant',
           label: 'GitHub',
           position: 'right'
         },
@@ -125,10 +125,6 @@ const config: Config = {
           items: [
             {
               label: '官网仓库',
-              href: 'https://github.com/AK-assistant/ak-assistant-website'
-            },
-            {
-              label: '软件仓库',
               href: 'https://github.com/AK-assistant/ak-assistant'
             }
           ]

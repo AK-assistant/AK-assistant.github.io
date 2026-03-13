@@ -1,30 +1,33 @@
-# ak-website-docusaurus
+# AK Assistant 官网源码
 
-这是新的官网目录，基于 Docusaurus 构建。
+这是 AK Assistant 官方网站的源码仓库，基于 Docusaurus 构建。
 
-当前目标：
+本仓库仅用于维护官网相关内容：
 
-- 承载产品官网首页
-- 承载后续使用文档
-- 提供 GitHub Releases 下载入口
-- 适配 GitHub Pages 与自定义域名
+- 产品介绍页
+- 使用文档
+- 更新日志
+- GitHub Releases 下载入口
 
-## 开发
+本仓库不是 AK Assistant 桌面软件的完整业务源码仓库。这里发布的是官网与文档内容，不包含桌面应用、服务端或完整业务实现。
+
+## AK Assistant 特性
+
+- 轻快流畅，适合长时间串口调试
+- 支持 Windows、macOS 与 Linux
+- 统一提供官网、文档与下载入口
+- 通过 GitHub Releases 分发安装包
+
+## 本地开发
 
 ```bash
 npm install
 npm run dev
 ```
 
-## 构建
+## 生产构建
 
 ```bash
 npm run build
+npm run serve
 ```
-
-## 说明
-
-- 旧版官网目录 `ak-website` 目前仍保留，尚未删除
-- 官网代码仓库预期为 `https://github.com/AK-assistant/ak-assistant-website`
-- 软件发布地址当前按 `https://github.com/AK-assistant/ak-assistant/releases/latest` 配置
-- 若正式域名或软件仓库地址有变，需要同步修改 `docusaurus.config.ts`

@@ -4,11 +4,11 @@ sidebar_position: 3
 
 # 下载与更新
 
-AK Assistant 的安装包建议统一发布到 GitHub Releases。
+AK Assistant 的安装包统一发布在 GitHub Releases 页面。
 
-- 官网首页的下载按钮跳转到最新 Release
-- 文档页提供平台说明和安装步骤
-- 更新日志可同步放在官网博客中
+- 官网首页的下载按钮会跳转到最新版本页面
+- 请根据当前操作系统选择对应安装包
+- 更新说明可在 Release 页面和官网更新日志中查看
 
 最新下载地址：
 

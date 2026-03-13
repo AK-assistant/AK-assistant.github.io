@@ -16,15 +16,14 @@ const HomePage: React.FC = () => {
         <section className="container homepage-bottomSection">
           <div className="homepage-bottomCard">
             <p className="homepage-bottomEyebrow">
-              <Translate id="homepage.bottom.eyebrow">文档规划</Translate>
+              <Translate id="homepage.bottom.eyebrow">文档与下载</Translate>
             </p>
             <h2>
-              <Translate id="homepage.bottom.title">后续内容可以直接在这个站点持续扩展</Translate>
+              <Translate id="homepage.bottom.title">统一获取产品介绍、文档与最新版本</Translate>
             </h2>
             <p>
               <Translate id="homepage.bottom.body">
-                站点已经预留文档、博客和 GitHub Releases 下载入口。后续你只需要新增 Markdown
-                文档和版本日志，不需要再维护两套官网体系。
+                官网提供稳定的下载入口、基础使用文档与更新日志，便于新用户快速上手，也便于持续发布版本说明。
               </Translate>
             </p>
           </div>

@@ -1,18 +1,15 @@
 {
-  "version": "0.1.0",
-  "notes": "Initial release",
+  "version": "latest",
+  "notes": "Latest public release",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/your-repo/releases/download/v0.1.0/ak-assistant_0.1.0_x64_en-US.msi",
-      "signature": "SIGNATURE_FOR_WIN_BINARY_HERE"
+      "url": "https://github.com/AK-assistant/ak-assistant/releases/latest"
     },
     "darwin-universal": {
-      "url": "https://github.com/your-repo/releases/download/v0.1.0/ak-assistant_0.1.0_universal.dmg",
-      "signature": "SIGNATURE_FOR_MAC_BINARY_HERE"
+      "url": "https://github.com/AK-assistant/ak-assistant/releases/latest"
     },
     "linux-x86_64": {
-      "url": "https://github.com/your-repo/releases/download/v0.1.0/ak-assistant_0.1.0_amd64.AppImage.tar.gz",
-      "signature": "SIGNATURE_FOR_LINUX_BINARY_HERE"
+      "url": "https://github.com/AK-assistant/ak-assistant/releases/latest"
     }
   }
 }
