@@ -1,0 +1,75 @@
+:root {
+  --ifm-color-primary: #1f6feb;
+  --ifm-color-primary-dark: #195ecc;
+  --ifm-color-primary-darker: #1759c1;
+  --ifm-color-primary-darkest: #13499f;
+  --ifm-color-primary-light: #3a82ff;
+  --ifm-color-primary-lighter: #5a96ff;
+  --ifm-color-primary-lightest: #8db7ff;
+  --ifm-background-color: #f5f9ff;
+  --ifm-navbar-background-color: rgba(245, 249, 255, 0.82);
+  --ifm-heading-color: #0f172a;
+  --ifm-font-color-base: #1e293b;
+  --ifm-code-font-size: 95%;
+  --ifm-global-radius: 1rem;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #5a96ff;
+  --ifm-color-primary-dark: #3e84ff;
+  --ifm-color-primary-darker: #2d79ff;
+  --ifm-color-primary-darkest: #0957df;
+  --ifm-color-primary-light: #76a8ff;
+  --ifm-color-primary-lighter: #8db7ff;
+  --ifm-color-primary-lightest: #bfd6ff;
+  --ifm-background-color: #050b16;
+  --ifm-background-surface-color: #091323;
+  --ifm-navbar-background-color: rgba(5, 11, 22, 0.72);
+  --ifm-heading-color: #f8fafc;
+  --ifm-font-color-base: #d7e1ef;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Outfit", "Noto Sans SC", "PingFang SC", sans-serif;
+  background:
+    radial-gradient(circle at top, rgba(90, 150, 255, 0.08), transparent 30%),
+    var(--ifm-background-color);
+}
+
+.navbar {
+  backdrop-filter: blur(1rem);
+}
+
+.homepage-bottomSection {
+  padding-bottom: 5rem;
+}
+
+.homepage-bottomCard {
+  padding: 2rem;
+  border: 1px solid rgba(90, 156, 255, 0.18);
+  border-radius: 1.5rem;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(246, 249, 255, 0.94)),
+    radial-gradient(circle at top right, rgba(31, 111, 235, 0.1), transparent 40%);
+  box-shadow: 0 1.25rem 2.5rem rgba(16, 24, 40, 0.08);
+}
+
+.homepage-bottomEyebrow {
+  margin-bottom: 0.75rem;
+  color: var(--ifm-color-primary);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+[data-theme='dark'] .homepage-bottomCard {
+  background:
+    linear-gradient(180deg, rgba(13, 23, 43, 0.88), rgba(8, 15, 31, 0.94)),
+    radial-gradient(circle at top right, rgba(31, 111, 235, 0.2), transparent 40%);
+  box-shadow: 0 1.5rem 3rem rgba(5, 9, 18, 0.22);
+}
