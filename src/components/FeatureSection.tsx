@@ -11,37 +11,52 @@ const FeatureSection: React.FC = () => {
             <Translate id="homepage.features.eyebrow">核心能力</Translate>
           </p>
           <h2 className={styles.title}>
-            <Translate id="homepage.features.title">为嵌入式开发而设计的现代串口工具</Translate>
+            <Translate id="homepage.features.title">硬核功能，为生产力而生</Translate>
           </h2>
+          <p className={styles.subtitle}>
+            <Translate id="homepage.features.subtitle">
+              专为嵌入式开发者打造的新一代串口工具，在性能、体验与可用性之间保持清晰取舍。
+            </Translate>
+          </p>
         </div>
         <div className={styles.grid}>
           <article className={styles.card}>
             <h3>
-              <Translate id="homepage.features.performance.title">轻快流畅</Translate>
+              <Translate id="homepage.features.performance.title">轻盈如风，畅快随行</Translate>
             </h3>
             <p>
               <Translate id="homepage.features.performance.body">
-                启动迅速、资源占用低，适合长时间调试和高频日常使用。
+                启动迅捷，运行丝滑，资源占用极低，让每一次操作都流畅自如。
               </Translate>
             </p>
           </article>
           <article className={styles.card}>
             <h3>
-              <Translate id="homepage.features.crossPlatform.title">全平台一致体验</Translate>
+              <Translate id="homepage.features.crossPlatform.title">全平台无缝体验</Translate>
             </h3>
             <p>
               <Translate id="homepage.features.crossPlatform.body">
-                面向 Windows、macOS 与 Linux 提供统一体验，减少跨环境切换成本。
+                无论 Windows、macOS 还是 Linux，一致的高品质体验，随心切换，高效无界。
               </Translate>
             </p>
           </article>
           <article className={styles.card}>
             <h3>
-              <Translate id="homepage.features.docs.title">官网与文档统一</Translate>
+              <Translate id="homepage.features.design.title">现代美学，悦目悦用</Translate>
             </h3>
             <p>
-              <Translate id="homepage.features.docs.body">
-                产品介绍、使用文档、更新日志和下载入口归于同一站点，便于长期维护。
+              <Translate id="homepage.features.design.body">
+                简洁优雅的界面设计，直观易用的操作逻辑，支持个性化主题，重新定义串口工具的使用感受。
+              </Translate>
+            </p>
+          </article>
+          <article className={styles.card}>
+            <h3>
+              <Translate id="homepage.features.free.title">完全免费，开箱即用</Translate>
+            </h3>
+            <p>
+              <Translate id="homepage.features.free.body">
+                功能完整，零费用、零订阅，无需等待，即刻开启专业级体验。
               </Translate>
             </p>
           </article>
