@@ -2,12 +2,15 @@ import type { Config } from '@docusaurus/types';
 import type { Preset } from '@docusaurus/preset-classic';
 import { themes as prismThemes } from 'prism-react-renderer';
 
+const siteUrl = process.env.SITE_URL ?? 'https://ak-assistant.github.io';
+const siteBaseUrl = process.env.BASE_URL ?? '/ak-assistant/';
+
 const config: Config = {
   title: 'AK Assistant',
   tagline: '专为嵌入式开发者打造的新一代串口工具',
   favicon: 'img/logo.svg',
-  url: 'https://www.ak-assistant.top',
-  baseUrl: '/',
+  url: siteUrl,
+  baseUrl: siteBaseUrl,
   organizationName: 'AK-assistant',
   projectName: 'ak-assistant',
   onBrokenLinks: 'throw',
