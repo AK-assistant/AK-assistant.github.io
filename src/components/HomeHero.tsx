@@ -17,6 +17,17 @@ const HomeHero: React.FC = () => {
             <p className={styles.kicker}>
               <Translate id="homepage.hero.kicker">AK Assistant</Translate>
             </p>
+            <div className={styles.metaRow}>
+              <span className={styles.metaBadge}>
+                <Translate id="homepage.hero.meta.version">当前版本持续通过 GitHub Pages 发布</Translate>
+              </span>
+              <span className={styles.metaBadge}>
+                <Translate id="homepage.hero.meta.platforms">支持 Windows / macOS / Linux</Translate>
+              </span>
+              <span className={styles.metaBadge}>
+                <Translate id="homepage.hero.meta.free">完全免费</Translate>
+              </span>
+            </div>
             <h1 className={styles.title}>
               <Translate id="homepage.hero.title">串口调试，理应如此优雅</Translate>
             </h1>
@@ -32,6 +43,20 @@ const HomeHero: React.FC = () => {
               </Link>
             </div>
             <p className={styles.note}>{getDownloadDescription()}</p>
+            <div className={styles.quickFacts}>
+              <div className={styles.quickFact}>
+                <strong>定位</strong>
+                <span>面向嵌入式开发者的现代串口工具</span>
+              </div>
+              <div className={styles.quickFact}>
+                <strong>分发</strong>
+                <span>安装包通过 GitHub Releases 获取</span>
+              </div>
+              <div className={styles.quickFact}>
+                <strong>文档</strong>
+                <span>官网、说明文档与更新日志统一维护</span>
+              </div>
+            </div>
           </div>
           <div className={styles.visual}>
             <div className={styles.visualCard}>

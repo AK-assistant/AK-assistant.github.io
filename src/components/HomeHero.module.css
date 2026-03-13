@@ -27,6 +27,23 @@
   max-width: 38rem;
 }
 
+.metaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.metaBadge {
+  padding: 0.45rem 0.8rem;
+  border: 1px solid rgba(141, 215, 255, 0.24);
+  border-radius: 999px;
+  background: rgba(9, 18, 34, 0.45);
+  color: rgba(226, 232, 240, 0.88);
+  font-size: 0.84rem;
+  line-height: 1;
+}
+
 .kicker {
   margin-bottom: 1rem;
   color: #8dd7ff;
@@ -60,6 +77,36 @@
   margin: 0;
   color: rgba(203, 213, 225, 0.72);
   font-size: 0.95rem;
+}
+
+.quickFacts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-top: 1.5rem;
+}
+
+.quickFact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1rem;
+  border: 1px solid rgba(120, 176, 255, 0.18);
+  border-radius: 1.25rem;
+  background: rgba(10, 18, 34, 0.52);
+}
+
+.quickFact strong {
+  color: #8dd7ff;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.quickFact span {
+  color: rgba(226, 232, 240, 0.85);
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 .visual {
@@ -102,9 +149,28 @@ html[data-theme='light'] .kicker {
   color: #1f6feb;
 }
 
+html[data-theme='light'] .metaBadge {
+  border-color: rgba(31, 111, 235, 0.16);
+  background: rgba(255, 255, 255, 0.82);
+  color: rgba(15, 23, 42, 0.82);
+}
+
 html[data-theme='light'] .subtitle,
 html[data-theme='light'] .note {
   color: rgba(15, 23, 42, 0.74);
+}
+
+html[data-theme='light'] .quickFact {
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 1rem 2rem rgba(16, 24, 40, 0.06);
+}
+
+html[data-theme='light'] .quickFact strong {
+  color: #1f6feb;
+}
+
+html[data-theme='light'] .quickFact span {
+  color: rgba(15, 23, 42, 0.78);
 }
 
 html[data-theme='light'] .visualCard {
@@ -120,6 +186,10 @@ html[data-theme='light'] .visualCard {
   }
 
   .inner {
+    grid-template-columns: 1fr;
+  }
+
+  .quickFacts {
     grid-template-columns: 1fr;
   }
 

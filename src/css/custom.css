@@ -48,6 +48,28 @@ body {
   padding-bottom: 5rem;
 }
 
+.homepage-capabilitySection {
+  padding-bottom: 4rem;
+}
+
+.homepage-capabilityHeader {
+  max-width: 46rem;
+  margin-bottom: 2rem;
+}
+
+.homepage-capabilityHeader p:last-child {
+  margin: 0.75rem 0 0;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.8;
+}
+
+.homepage-capabilityGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.homepage-capabilityCard,
 .homepage-bottomCard {
   padding: 2rem;
   border: 1px solid rgba(90, 156, 255, 0.18);
@@ -56,6 +78,22 @@ body {
     linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(246, 249, 255, 0.94)),
     radial-gradient(circle at top right, rgba(31, 111, 235, 0.1), transparent 40%);
   box-shadow: 0 1.25rem 2.5rem rgba(16, 24, 40, 0.08);
+}
+
+.homepage-capabilityCard h3 {
+  margin-bottom: 0.75rem;
+}
+
+.homepage-capabilityCard p {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.7;
+}
+
+.homepage-bottomGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
 }
 
 .homepage-bottomEyebrow {
@@ -67,9 +105,27 @@ body {
   text-transform: uppercase;
 }
 
+[data-theme='dark'] .homepage-capabilityCard,
 [data-theme='dark'] .homepage-bottomCard {
   background:
     linear-gradient(180deg, rgba(13, 23, 43, 0.88), rgba(8, 15, 31, 0.94)),
     radial-gradient(circle at top right, rgba(31, 111, 235, 0.2), transparent 40%);
   box-shadow: 0 1.5rem 3rem rgba(5, 9, 18, 0.22);
+}
+
+.homepage-bottomList {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.homepage-bottomList li + li {
+  margin-top: 0.45rem;
+}
+
+@media (max-width: 996px) {
+  .homepage-capabilityGrid,
+  .homepage-bottomGrid {
+    grid-template-columns: 1fr;
+  }
 }
