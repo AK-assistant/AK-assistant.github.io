@@ -131,7 +131,7 @@ const config: Config = {
           ]
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} AK Assistant`
+      copyright: `Copyright © ${new Date().getFullYear()} AK Assistant&nbsp;&nbsp;<a href="https://beian.miit.gov.cn" target="_blank" rel="noreferrer">粤ICP备20005796号-3</a>`
     },
     prism: {
       theme: prismThemes.github,

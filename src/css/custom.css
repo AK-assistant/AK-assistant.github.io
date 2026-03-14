@@ -56,3 +56,22 @@ body {
   --ifm-footer-link-color: rgba(231, 238, 248, 0.84);
   --ifm-footer-title-color: #f3f6fb;
 }
+
+.footer .container {
+  width: min(calc(100vw - 2rem), 75rem);
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footer {
+  --ifm-footer-padding-vertical: 1.2rem;
+}
+
+.footer__links {
+  margin-bottom: 0.6rem;
+}
+
+.footer__bottom {
+  padding-top: 0.2rem;
+}
