@@ -1,5 +1,8 @@
 import type { Config } from '@docusaurus/types';
-import type { Preset } from '@docusaurus/preset-classic';
+import type {
+  Options as PresetOptions,
+  ThemeConfig as PresetThemeConfig
+} from '@docusaurus/preset-classic';
 import { themes as prismThemes } from 'prism-react-renderer';
 
 const siteUrl = process.env.SITE_URL ?? 'https://ak-assistant.github.io';
@@ -56,7 +59,7 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css'
         }
-      } satisfies Preset.Options
+      } satisfies PresetOptions
     ]
   ],
   themeConfig: {
@@ -81,11 +84,6 @@ const config: Config = {
         {
           href: 'https://github.com/AK-assistant/AK-assistant.github.io/releases/latest',
           label: '下载',
-          position: 'right'
-        },
-        {
-          href: 'https://github.com/AK-assistant/AK-assistant.github.io',
-          label: 'GitHub',
           position: 'right'
         },
         {
@@ -139,7 +137,7 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula
     }
-  } satisfies Preset.ThemeConfig
+  } satisfies PresetThemeConfig
 };
 
 export default config;

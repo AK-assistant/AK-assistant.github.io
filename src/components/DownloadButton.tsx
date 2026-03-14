@@ -69,7 +69,7 @@ const DownloadButton: React.FC = () => {
 export const getDownloadDescription = (): string => {
   return translate({
     id: 'homepage.hero.downloadDescription',
-    message: '安装包托管于 GitHub Releases，可按平台跳转到对应资源。'
+    message: '支持按当前平台跳转到对应版本，安装后即可开始串口调试。'
   });
 };
 

@@ -1,26 +1,29 @@
 import React from 'react';
 import Translate from '@docusaurus/Translate';
+import clsx from 'clsx';
+import { Gift, Monitor, Sparkles, Wind } from 'lucide-react';
 import styles from './FeatureSection.module.css';
 
 const FeatureSection: React.FC = () => {
   return (
     <section className={styles.section}>
-      <div className="container">
+      <div className={styles.wrap}>
         <div className={styles.header}>
-          <p className={styles.eyebrow}>
-            <Translate id="homepage.features.eyebrow">核心能力</Translate>
-          </p>
           <h2 className={styles.title}>
             <Translate id="homepage.features.title">硬核功能，为生产力而生</Translate>
           </h2>
           <p className={styles.subtitle}>
             <Translate id="homepage.features.subtitle">
-              专为嵌入式开发者打造的新一代串口工具，在性能、体验与可用性之间保持清晰取舍。
+              Designed for high-performance teams and creative individuals.
             </Translate>
           </p>
         </div>
+
         <div className={styles.grid}>
-          <article className={styles.card}>
+          <article className={clsx(styles.card, styles.cardWide)}>
+            <div className={styles.iconBox}>
+              <Wind size={32} strokeWidth={2.1} />
+            </div>
             <h3>
               <Translate id="homepage.features.performance.title">轻盈如风，畅快随行</Translate>
             </h3>
@@ -30,7 +33,11 @@ const FeatureSection: React.FC = () => {
               </Translate>
             </p>
           </article>
-          <article className={styles.card}>
+
+          <article className={clsx(styles.card, styles.cardNarrow)}>
+            <div className={styles.iconBox}>
+              <Monitor size={32} strokeWidth={2.1} />
+            </div>
             <h3>
               <Translate id="homepage.features.crossPlatform.title">全平台无缝体验</Translate>
             </h3>
@@ -40,7 +47,11 @@ const FeatureSection: React.FC = () => {
               </Translate>
             </p>
           </article>
-          <article className={styles.card}>
+
+          <article className={clsx(styles.card, styles.cardNarrow)}>
+            <div className={styles.iconBox}>
+              <Sparkles size={32} strokeWidth={2.1} />
+            </div>
             <h3>
               <Translate id="homepage.features.design.title">现代美学，悦目悦用</Translate>
             </h3>
@@ -50,7 +61,11 @@ const FeatureSection: React.FC = () => {
               </Translate>
             </p>
           </article>
-          <article className={styles.card}>
+
+          <article className={clsx(styles.card, styles.cardWide)}>
+            <div className={styles.iconBox}>
+              <Gift size={32} strokeWidth={2.1} />
+            </div>
             <h3>
               <Translate id="homepage.features.free.title">完全免费，开箱即用</Translate>
             </h3>
