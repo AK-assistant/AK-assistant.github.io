@@ -3,13 +3,13 @@
   "notes": "Latest public release",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/AK-assistant/AK-assistant.github.io/releases/latest"
+      "url": "https://github.com/AK-assistant/ak-assistant/releases/latest"
     },
     "darwin-universal": {
-      "url": "https://github.com/AK-assistant/AK-assistant.github.io/releases/latest"
+      "url": "https://github.com/AK-assistant/ak-assistant/releases/latest"
     },
     "linux-x86_64": {
-      "url": "https://github.com/AK-assistant/AK-assistant.github.io/releases/latest"
+      "url": "https://github.com/AK-assistant/ak-assistant/releases/latest"
     }
   }
 }

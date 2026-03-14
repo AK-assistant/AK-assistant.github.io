@@ -4,7 +4,8 @@ const sidebars: SidebarsConfig = {
   docsSidebar: [
     'intro',
     'getting-started',
-    'download'
+    'download',
+    'privacy-policy'
   ]
 };
 

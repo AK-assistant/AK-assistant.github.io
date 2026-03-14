@@ -33,7 +33,7 @@ jobs:
 
       - name: 构建站点
         env:
-          SITE_URL: https://ak-assistant.github.io
+          SITE_URL: https://www.ak-assistant.top
           BASE_URL: /
         run: npm run build
 

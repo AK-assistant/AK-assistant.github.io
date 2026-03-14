@@ -5,7 +5,7 @@ import type {
 } from '@docusaurus/preset-classic';
 import { themes as prismThemes } from 'prism-react-renderer';
 
-const siteUrl = process.env.SITE_URL ?? 'https://ak-assistant.github.io';
+const siteUrl = process.env.SITE_URL ?? 'https://www.ak-assistant.top';
 const siteBaseUrl = process.env.BASE_URL ?? '/';
 
 const config: Config = {
@@ -15,7 +15,7 @@ const config: Config = {
   url: siteUrl,
   baseUrl: siteBaseUrl,
   organizationName: 'AK-assistant',
-  projectName: 'AK-assistant.github.io',
+  projectName: 'ak-assistant.github.io',
   onBrokenLinks: 'throw',
   trailingSlash: false,
   markdown: {
@@ -36,9 +36,9 @@ const config: Config = {
     }
   },
   customFields: {
-    websiteRepoUrl: 'https://github.com/AK-assistant/AK-assistant.github.io',
-    appRepoUrl: 'https://github.com/AK-assistant/AK-assistant.github.io',
-    releasesUrl: 'https://github.com/AK-assistant/AK-assistant.github.io/releases/latest'
+    websiteRepoUrl: 'https://github.com/AK-assistant/ak-assistant.github.io',
+    appRepoUrl: 'https://github.com/AK-assistant/ak-assistant',
+    releasesUrl: 'https://github.com/AK-assistant/ak-assistant/releases/latest'
   },
   presets: [
     [
@@ -47,13 +47,13 @@ const config: Config = {
         docs: {
           routeBasePath: 'docs',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/AK-assistant/AK-assistant.github.io/tree/main/'
+          editUrl: 'https://github.com/AK-assistant/ak-assistant.github.io/tree/main/'
         },
         blog: {
           showReadingTime: true,
           blogTitle: '更新日志',
           blogDescription: 'AK Assistant 官网更新与版本记录',
-          editUrl: 'https://github.com/AK-assistant/AK-assistant.github.io/tree/main/',
+          editUrl: 'https://github.com/AK-assistant/ak-assistant.github.io/tree/main/',
           onUntruncatedBlogPosts: 'ignore'
         },
         theme: {
@@ -82,7 +82,7 @@ const config: Config = {
           position: 'left'
         },
         {
-          href: 'https://github.com/AK-assistant/AK-assistant.github.io/releases/latest',
+          href: 'https://github.com/AK-assistant/ak-assistant/releases/latest',
           label: '下载',
           position: 'right'
         },
@@ -117,7 +117,7 @@ const config: Config = {
           items: [
             {
               label: '最新版本',
-              href: 'https://github.com/AK-assistant/AK-assistant.github.io/releases/latest'
+              href: 'https://github.com/AK-assistant/ak-assistant/releases/latest'
             }
           ]
         },
@@ -126,7 +126,7 @@ const config: Config = {
           items: [
             {
               label: '官网仓库',
-              href: 'https://github.com/AK-assistant/AK-assistant.github.io'
+              href: 'https://github.com/AK-assistant/ak-assistant.github.io'
             }
           ]
         }
