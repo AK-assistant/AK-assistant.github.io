@@ -20,7 +20,7 @@
 .wrap {
   position: relative;
   z-index: 1;
-  width: min(calc(100vw - 2.5rem), 87.5rem);
+  width: min(calc(100vw - 2rem), 75rem);
   margin: 0 auto;
 }
 
@@ -154,7 +154,7 @@ html[data-theme='light'] .card p {
   }
 
   .wrap {
-    width: min(calc(100vw - 2rem), 87.5rem);
+    width: min(calc(100vw - 2rem), 75rem);
   }
 
   .header {
