@@ -5,7 +5,7 @@ import type {
 } from '@docusaurus/preset-classic';
 import { themes as prismThemes } from 'prism-react-renderer';
 
-const siteUrl = process.env.SITE_URL ?? 'https://www.ak-assistant.top';
+const siteUrl = process.env.SITE_URL ?? 'https://ak-assistant.github.io';
 const siteBaseUrl = process.env.BASE_URL ?? '/';
 
 const config: Config = {
